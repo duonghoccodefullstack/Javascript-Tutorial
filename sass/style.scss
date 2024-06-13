@@ -1,0 +1,80 @@
+@import "reset";
+
+
+$width : 50px;
+$width1 : 200px;
+$height1 : 500px;
+$height : 50px;
+$height3 : 200px;
+$box1 : red;
+$box2 : blue;
+$box3 : yellow;
+$items_1 : lightblue;
+$items_2 : lightgray;
+$items_3 : lightpink;
+$items_4 : black;
+$slide : 500px;
+.box  {
+    width: $width;
+    height:$height1;
+    background-color: $box1;
+    
+}
+._1 {
+    background-color: $box1;
+    // display: none;
+}
+._2 {
+    background-color: $box2;
+    display: none;
+
+}
+._3 {
+    background-color: $box3;
+    display: none;
+}
+
+.click {
+    // background-color: $box1;
+    width: $slide;
+    border: 1px solid $box3;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: none;
+    background-color: $box1;
+    display: flex;
+    flex-direction: column;
+    width: $width;
+    height: $height;
+}
+// ol {
+//     // display: none;
+// }
+// ol:hover {
+//     background-color:$items_1;
+    
+// }
+#box {
+    width: $width1;
+    height: $height3;
+    background-color: aquamarine;
+}
+h1 {
+    background-color: $items_1;
+ 
+}
+.test {
+    color: $items_3;
+}
+button {
+    margin:0;
+}
+button  {
+    padding: 0;
+}
